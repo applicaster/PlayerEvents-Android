@@ -57,9 +57,8 @@ buildscript {
 
 dependencies {
     // Applicaster SDK
-    def applicasterSDKPath = 'com.applicaster:applicaster-android-sdk:2.32.15'
+    def applicasterSDKPath = 'com.applicaster:applicaster-android-sdk:3.0.0'
 
-    // Check if an open SDK is defined - if not use the closed one.
     //Check if an open SDK is defined - if not use the closed one.
     def devSDK = findProject(':applicaster-android-sdk')
     if (devSDK != null) {
@@ -67,10 +66,6 @@ dependencies {
     } else {
         implementation(applicasterSDKPath)
     }
-
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
 apply from: 'gradle/gradle-bintray-push.gradle'

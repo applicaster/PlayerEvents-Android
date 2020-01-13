@@ -3,7 +3,7 @@
 # Check https://circleci.com/docs/2.0/language-java/ for more details
 #
 defaults: &defaults
-  working_directory: ~/PluginPresenter-Android
+  working_directory: ~/PlayerEventsProvider-Android
   docker:
     - image: circleci/android:api-27-alpha
 

@@ -20,5 +20,5 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep public interface com.applicaster.pluginpresenter.PluginPresenter {*;}
+-keep public interface com.applicaster.playerevents.PlayerEventsProvider {*;}
 

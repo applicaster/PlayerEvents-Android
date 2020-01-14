@@ -16,7 +16,7 @@ object PlayerEventsManager {
         }
     }
 
-    fun onPlayerEvent(event: String, properties: Any) {
+    fun onPlayerEvent(event: String, properties: HashMap<String,Any>) {
         playerEventsProviders.forEach { it.onPlayerEvent(event,properties) }
     }
 

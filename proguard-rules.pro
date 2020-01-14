@@ -20,5 +20,12 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep public interface com.applicaster.playerevents.PlayerEventsProvider {*;}
+-keep public interface com.applicaster.playerevents.PlayerEventsProvider {
+    public <fields>;
+    public <methods>;
+    }
+-keep public class com.applicaster.playerevents.PlayerEventsManager {
+    public <fields>;
+    public <methods>;
+    }
 

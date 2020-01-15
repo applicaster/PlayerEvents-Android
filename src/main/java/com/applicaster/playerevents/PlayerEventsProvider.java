@@ -4,5 +4,5 @@ import java.util.HashMap;
 
 public interface PlayerEventsProvider {
 
-    void onPlayerEvents(String event, HashMap<String,Object> properties);
+    void onPlayerEvent(String event, HashMap<String,Object> properties);
 }

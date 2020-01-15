@@ -1,4 +1,4 @@
-# PluginPresenter - Android
+# PlayerEvents - Android
 ## OVERVIEW
 
 A PlayerEventsProvider is a plugin that listen to different notifications that the player can trigger and execute logic according to them.

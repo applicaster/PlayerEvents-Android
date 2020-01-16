@@ -1,8 +1,6 @@
 package com.applicaster.playerevents
 
-import com.applicaster.plugin_manager.GenericPluginI
-
-interface PlayerEventsProvider:GenericPluginI {
+interface PlayerEventsProvider {
 
     fun onPlayerEvent(event: String, properties: Any)
 }

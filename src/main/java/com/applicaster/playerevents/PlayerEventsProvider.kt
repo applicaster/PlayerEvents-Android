@@ -1,6 +1,6 @@
 package com.applicaster.playerevents
 
-interface PlayerEventsProvider{
+interface PlayerEventsProvider {
 
-    fun onPlayerEvent(event: String, properties: HashMap<String,Any>)
+    fun onPlayerEvent(event: String, properties: Any)
 }
